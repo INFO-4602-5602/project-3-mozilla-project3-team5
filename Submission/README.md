@@ -23,6 +23,7 @@
 
 
 **Your design process**
+
 We use pandas to do the data cleaning part
 
 project3_raw is dataframe name before dropping all missing value
