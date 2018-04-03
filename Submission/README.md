@@ -24,6 +24,23 @@
 
 **Your design process**
 
+**Yan's Code**
+
+The first visualization, we use python3 do data clean(Jupyter) and use D3 show the graph. The file name is py.ipynb in the data process folder. First we read the file and extract the column: 'WiFi Router:Check all the internet connected devices you currently own:', 'Laptop computer:Check all the internet connected devices you currently own:', 'Smart phone:Check all the internet connected devices you currently own:', 'Smart TV:Check all the internet connected devices you currently own:', 'Activity Tracker (ex: Fitbit or Apple Watch):Check all the internet connected devices you currently own:', 'Smarthome Hub (ex. Amazon Echo, Google Alexa):Check all the internet connected devices you currently own:', 'Car that connects to the internet:Check all the internet connected devices you currently own:', 'Smart Thermostat (ex: Nest):Check all the internet connected devices you currently own:', 'Smart Appliance (ex. Coffeemaker, Refrigerator, Oven, Fridge):Check all the internet connected devices you currently own:', 'Smart Door Locks (ex. Door locks for your home you can open via bluetooth):Check all the internet connected devices you currently own:', 'Smart Lighting (ex. Connected lighting switches, dimmers, or bulbs):Check all the internet connected devices you currently own:'. Second we count each column numbers, then transfer to 1.csv file. the code is：
+
+```
+df= pd.read_csv('se.csv', encoding = "ISO-8859-1")
+df1 = df[['WiFi Router:Check all the internet connected devices you currently own:', 'Laptop computer:Check all the internet connected devices you currently own:', 'Smart phone:Check all the internet connected devices you currently own:', 'Smart TV:Check all the internet connected devices you currently own:', 'Activity Tracker (ex: Fitbit or Apple Watch):Check all the internet connected devices you currently own:', 'Smarthome Hub (ex. Amazon Echo, Google Alexa):Check all the internet connected devices you currently own:', 'Car that connects to the internet:Check all the internet connected devices you currently own:', 'Smart Thermostat (ex: Nest):Check all the internet connected devices you currently own:', 'Smart Appliance (ex. Coffeemaker, Refrigerator, Oven, Fridge):Check all the internet connected devices you currently own:', 'Smart Door Locks (ex. Door locks for your home you can open via bluetooth):Check all the internet connected devices you currently own:', 'Smart Lighting (ex. Connected lighting switches, dimmers, or bulbs):Check all the internet connected devices you currently own:']]
+df2= df1.count()
+#print(df2)
+df2.to_csv("1.csv")
+
+```
+
+this graph shows each device has how many peoples used. X axis is different devices and Y axis is numbers. The reason we create this visualization is that there are eleven types of device, so we want to find out the number of each type, and create the bar chart to show which one has the most number of usage. You can interact with each bar on the visualization. You can use mouse to put on the bars and it will shows the x and y values.
+
+**Yifan's Code**
+
 We use pandas to do the data cleaning part
 
 project3_raw is dataframe name before dropping all missing value
@@ -171,9 +188,26 @@ For these graph, we choose to format them as column
 show(column(a,b,p))
 ```
 
+**Zening's explanation for Link Name graph**
+The visualization is a line chart. We use the Link Name attribute, and we count the total number of the Link Name as the second attribute. The second attribute called Total number. The Link Name is for the x axis, and the Total number is for the y axis. The reason we create this visualization is that there are ten types of Link, so we want to find out the number of each type, and create the line chart to show which one has the most number of usage and the slope of each point on the visualization. We use Python to process the data. First of all, we shrink the whole data, which only has the Link Name. Then, we use count the total number of each type of link. Finally, we store the correct data into a new csv file. Everything we do are in Jupyter Notebook by pandas. After we construct the data, we used Python to creates the graph. You can interact with each point on the visualization. You can use mouse to put on the points and it will shows the x and y values. The way to see this visualization is that use Python to create a server and run the html file.
+
+
 **Team Role**
 
-there is for team Role
+* Peng Yan do:
+  * Write some part of the readme.
+  * Design the bar chart.
+  * Create the data for the bar chart.
+  * Create and solve some problems of the bar chart.
+
+* Zening do:
+  * Write some part of the readme.
+  * Design the line chart.
+  * Create the data for the line chart.
+  * Work with Yifan Li and Peng Yan to create and solve some problems of the line chart.
+
+
+**Above and Beyond**
 
 **How to run our project**
 
