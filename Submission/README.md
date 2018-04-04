@@ -23,7 +23,7 @@
     When your mouse on each point on the graph, you will be able to see more Information about this point you on, including: Link name and total quantity of how many people choose this link.
 
 
-##**Your design process**
+**Your design process**
 
 **Yan's Code**
 
@@ -39,6 +39,8 @@ df2.to_csv("1.csv")
 ```
 
 **Yifan's Code**
+
+My code is in Project3 -- geography.ipynb
 
 We use pandas to do the data cleaning part
 
@@ -187,11 +189,12 @@ For these graph, we choose to format them as column
 show(column(a,b,p))
 ```
 
+
 **Zening's explanation for Link Name graph**
 The visualization is a line chart. We use the Link Name attribute, and we count the total number of the Link Name as the second attribute. The second attribute called Total number. The Link Name is for the x axis, and the Total number is for the y axis. The reason we create this visualization is that there are ten types of Link, so we want to find out the number of each type, and create the line chart to show which one has the most number of usage and the slope of each point on the visualization. We use Python to process the data. First of all, we shrink the whole data, which only has the Link Name. Then, we use count the total number of each type of link. Finally, we store the correct data into a new csv file. Everything we do are in Jupyter Notebook by pandas. After we construct the data, we used Python to creates the graph. You can interact with each point on the visualization. You can use mouse to put on the points and it will shows the x and y values. The way to see this visualization is that use Python to create a server and run the html file.
 
 
-##**Team Role**
+**Team Role**
 
 * Peng Yan do:
   * Write some part of the readme.
@@ -205,9 +208,26 @@ The visualization is a line chart. We use the Link Name attribute, and we count 
   * Create the data for the line chart.
   * Work with Yifan Li and Peng Yan to create and solve some problems of the line chart.
 
+* Zhixing do:
+  *
+  *
+  *
+  *
+  *
 
-##**Above and Beyond**
 
-##**How to run our project**
+* Yifan do:
+  * Create readme file
+  * Clean data using Juypter notebook before use
+  * Design scatter plot and bar chart using Bokeh
+  * Work with Yifan Li and Peng Yan to create and solve some problems of the line chart.
+  * Formatting HTML file
 
-here is for how to run our project
+
+**Above and Beyond**
+
+**How to run our project**
+
+1. Run python3 -m http.server in terminal
+2. Enter localhost on web browser, find 'project3.html'
+3. Open 'project3.html'
