@@ -222,7 +222,18 @@ The visualization is a line chart. We use the Link Name attribute, and we count 
 
 
 **Above and Beyond**
-
+* Uncertainy:
+  * Because after data clean, our data do not include any uncertainy.
+* Semantic Zoom:
+  * India_Price bar chart can use the right side toolbar zoom the graph.
+* Missing Data:
+  * We use python3 do the data clean and drop the missing values. Please see the python files.
+* Perceptually-Informed Design:
+  * Our visualizations use highlight color, toolbar and tooltips. Through these Perceptually-Informed Design we can see the data clear and can easily compare these date.
+* Coordinated Views:
+  * We do not finish this part.
+* style:
+  * We download an old floral paper background and use URL creating background. In the projector3.css file, We was styling the body part and use different font. We choose this background, because users can clearly see the visualization.
 
 
 **How to run our project**
