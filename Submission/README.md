@@ -209,12 +209,9 @@ The visualization is a line chart. We use the Link Name attribute, and we count 
   * Work with Yifan Li and Peng Yan to create and solve some problems of the line chart.
 
 * Zhixing do:
-  *
-  *
-  *
-  *
-  *
-
+  * Write some part of the readme.
+  * Working with Yifan plotting scatter plot and bar plot with Bokeh
+  * Helping with Yifan formatting HTML file
 
 * Yifan do:
   * Create readme file
@@ -225,6 +222,8 @@ The visualization is a line chart. We use the Link Name attribute, and we count 
 
 
 **Above and Beyond**
+
+
 
 **How to run our project**
 
