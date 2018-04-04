@@ -6,6 +6,7 @@
         <title>Bokeh Plot</title>
 
 <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.css" type="text/css" />
+<!-- <link rel="stylesheet" type="text/css" href="project3.css"></link> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.js"></script>
@@ -21,11 +22,14 @@
             width: 90%;
             height: 100%;
             margin: auto;
+            background-image: url("https://static9.depositphotos.com/1280399/1212/i/450/depositphotos_12123001-stock-photo-old-grunge-parchment-background-canvas.jpg");
+
           }
           #partThree{
-            width: 90%;
-            height: 100%;
+            width: 390%;
+            height: 200%;
             margin: auto;
+
           }
           .grid-container {
             display: grid;
@@ -37,10 +41,12 @@
           .bk-root {
             grid-column: 1 /  5;
             grid-row: auto;
+
           }
 
           #partThree {
             grid-column: 1 /  5;
+
           }
 
 
@@ -170,7 +176,7 @@
                 var xLabel = svg.append("text")
                     .attr("class", "label")
                     .text(xVal)
-                    .attr("x", width - 20)
+                    .attr("x", width - 40)
                     .attr("y", height - 10);
                 var yLabel = svg.append("text")
                     .attr("class", "label")
