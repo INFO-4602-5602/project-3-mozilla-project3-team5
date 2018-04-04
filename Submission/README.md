@@ -1,4 +1,4 @@
-<h2>**Information about our visualization**<h2>
+**Information about our visualization**
   * What they show
     * Graph 1
     this graph shows each device has how many peoples used. X axis is different devices and Y axis is numbers. The reason we create this visualization is that there are eleven types of device, so we want to find out the number of each type, and create the bar chart to show which one has the most number of usage.
